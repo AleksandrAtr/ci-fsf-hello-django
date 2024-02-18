@@ -25,7 +25,5 @@ urlpatterns = [
     path("edit/<item_id>", views.edit_item, name="edit"),
     path("toggle/<item_id>", views.toggle_item, name="toggle"),
     path("delete/<item_id>", views.delete_item, name="delete"),
-     path('favicon.ico', views.generic.base.RedirectView.as_view(url='/'),
-          name='favicon_redirect')
 ]
 
